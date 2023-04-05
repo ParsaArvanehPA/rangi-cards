@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: IRANSansX, "Segoe UI", Arial, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    background-color: gray;
+}
+
+body > button {
+    align-self: flex-end;
+    padding: 1rem 2rem;
+    background-color: lightseagreen !important;
+    border-radius: 4px;
+
+    margin-inline-end: 0.5rem;
+}
+
+button {
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+
+    font-family: IRANSansX, "Segoe UI", Arial, Tahoma, sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 50vh;
+
+    background-color: white;
+
+    padding: 2rem 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    overflow: auto;
+}
+
+.wrapper button {
+    flex: 1 1 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1rem 5rem;
+
+    border-radius: 5px;
+
+    box-shadow: inset 1px 1px lightgray;
+}
+
+.card-number {
+    width: 5rem;
+    aspect-ratio: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.card-size {
+    font-size: 1.6rem;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.green {
+    background-color: mediumseagreen;
+}
+
+.blue {
+    background-color: cornflowerblue;
+}
+
+.purple {
+    background-color: mediumpurple;
+}
+
+.orange {
+    background-color: orangered;
+}
